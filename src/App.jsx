@@ -13,7 +13,6 @@ function App() {
 
   useEffect(()=>{
      setMobileView(window.innerWidth<450);
-     console.log(windowWidth)
      
   },[]);
 

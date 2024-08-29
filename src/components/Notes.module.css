@@ -121,7 +121,7 @@
         width: 96vw;
     }
     ::placeholder{
-        font-size: 1.5rem;
+        font-size: 3vw;
     }
     .icon{
         display: block;
@@ -129,9 +129,12 @@
         margin-top: 1.5vh;
         padding: 1vh;
     }
-}
-@media (max-width:450px) {
-    ::placeholder{
-        font-size: 3vw;
+    .header{
+        font-size: 5vw;
+    }
+    .initials{
+        height: 40px;
+        width: 40px;
     }
 }
+

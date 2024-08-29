@@ -1,6 +1,6 @@
 .container{
     width: 35vw;
-    height: 16vw;
+    height: 18vw;
     margin: auto;
     margin-top: 26vh;
     background-color: white;
@@ -61,7 +61,7 @@
 @media (max-width:1000px) {
     .container{
         width: 55vw;
-        height: 40vh;
+        height: 40vw;
     }
     .heading{
         font-size: 4vw;
