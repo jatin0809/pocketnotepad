@@ -1,0 +1,36 @@
+
+.container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100vh;
+}
+.left{
+  width: 30vw;
+  height: 100vh;
+}
+.right{
+  background-color: aqua;
+  width: 70vw;
+  height: 100vh;
+}
+@media (max-width:600px){
+  .left{
+    width: 20vw;
+  }
+  .right{
+    width: 80vw;
+  }
+}
+.hide{
+  display: none;
+}
+.leftFull{
+  width: 100vw;
+  height: 100vh;
+}
+.rightFull{
+  width: 100vw;
+  height: 100vh;
+}
+

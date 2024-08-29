@@ -1,0 +1,123 @@
+
+.container{
+ width: 100%; 
+
+}
+.heading{
+    margin-top: 5vh;
+    text-align: center;
+    font-size: 2rem;
+}
+.add{
+    position: absolute;
+    top: 85vh;
+    left: 22vw;
+    width: 5rem;
+    height: 5rem;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+    height: 80vh;
+    margin-top: 4vh;
+}
+.listItems{
+    display: flex;
+    font-size: 1.35rem;
+    font-weight: 500;
+    padding: 5%;
+    margin-left: 10%;
+    cursor: pointer;
+    border-radius: 2vh;
+    font-size: 1.6rem;
+}
+.selected{
+    display: flex;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding: 5%;
+    margin-left: 10%;
+}
+
+.initials{
+color: white;
+width: 50px;
+height: 50px;
+border-radius: 100px;
+display: grid;
+align-items: center;
+justify-items: center;
+}
+
+.title{
+    margin-top: 1.4vh;
+    margin-left: 2vw;
+}
+
+@media (max-width:800px) {
+    .listItems{
+        font-size: 2.5vw;
+
+    }
+    .initials{
+        height: 40px;
+        width: 40px;
+    }
+    .heading{
+        font-size: 1.8rem;
+    }
+    .add{
+        height: 4rem;
+        width: 4rem;
+        left: 18vw;
+    }
+    .title{
+        font-size: 1rem;
+        
+    }
+}
+
+@media (max-width:950px){
+    .title{
+        font-size: 1.3rem;
+        margin-top: 1.5vh;
+    }
+}
+
+@media (max-width:600px){
+    .title{
+        display: none;
+    }
+    .initials{
+        height: 60px;
+        width: 60px;
+        margin-left: 2.5vw;
+    }
+    .list{
+        height: 72vh;
+    }
+    .add{
+        left: 5vw;
+        top: 91vh;
+    }
+}
+
+@media (max-width:450px) {
+    .title{
+        display: block;
+        font-size: 1.6rem;
+    }
+    .add{
+        height: 4.5rem;
+        width: 4.5rem;
+        left: 78vw;
+        top: 87vh;
+    }
+    .heading{
+        font-size: 2.5rem;
+    }
+    .listItems{  font-size: 1.6rem;}
+    .list{height: 83vh;}
+}
+

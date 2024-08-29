@@ -1,0 +1,125 @@
+.container{
+    width: 35vw;
+    height: 16vw;
+    margin: auto;
+    margin-top: 26vh;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.form{
+    padding: 2.4vw;
+    font-size: 1.65vw;
+    font-weight: bold;
+    gap: 0.65vw;
+}
+.heading{
+    padding: 0.32vw;
+    padding-bottom: 0.65vw;
+}
+.form label{
+    padding: 0.52vw;
+}
+
+.form input{
+    border: 1;
+    border-radius: 1.3vw;
+    padding: 0.32vw;
+    padding-top: 0.52vw;
+    margin-left: 1.3vw;
+    width: 18vw;
+}
+.circles{
+    display: flex;
+}
+.circle{
+    width: 1.95vw;
+    height: 1.95vw;
+    border-radius: 5vw;
+    margin-top: 0.85vw;
+    margin-left: 0.32vw;
+}
+.colors{
+    display: flex;
+    flex-direction: row;
+    margin-top: 0.97vw;
+    
+}
+.colors label{
+    padding-right: 1.95vw;
+    margin-top: 0.32vw;
+}
+.button{
+    float: right;
+    background-color:#001F8B;
+    color: white;
+    width: 6.5vw;
+    height: 1.95vw;
+    border-radius: 0.65vw;
+    margin-top: 1.3vw;
+}
+@media (max-width:1000px) {
+    .container{
+        width: 55vw;
+        height: 40vh;
+    }
+    .heading{
+        font-size: 4vw;
+        padding-top: 2vh;
+    }
+    .form label{
+        font-size: 3vw;
+        padding-left: 2vh;
+    }
+    .group{
+        margin-top: 3vh;
+    }
+    .form input{
+        width: 28vw;
+        padding: 1.3vh;
+    }
+    .circle{
+        width: 4vw;
+        height: 4vw;
+        padding-left: 0.5vw;
+    }
+    .button{
+        width: 35vw;
+        height: 5vw;
+        float: left;
+        margin-left: 8vw;
+        margin-top: 3vh;
+        border-radius: 1vw;
+    }
+}
+@media (max-width:450px) {
+    .container{
+        width: 78vw;
+        height: 30vh;
+    }
+    .heading{
+        font-size: 5vw;
+        padding: 1.5vh;
+    }
+    .form label{
+        font-size: 4vw;
+    }
+    .form input{
+        width: 40vw;
+        padding: 0.7vw;
+        border-radius: 1vh;
+    }
+    .group{margin-top: 1vh;}
+    .circle{
+        height: 5vw;
+        width: 5vw;
+        padding-left: 4vw;
+    }
+    .circles{gap: 1vw;}
+
+    .button{
+        width: 40vw;
+        height: 4vh;
+        margin-left: 15vw;
+    }
+}
